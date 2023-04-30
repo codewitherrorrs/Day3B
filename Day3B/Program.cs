@@ -12,10 +12,16 @@
             TypesOfConstructor construct = new TypesOfConstructor(obj_Two);
             Console.WriteLine("Copy Constructor : "+construct.brand);
             Console.WriteLine("Default Constructor : "+obj_Two.presentDay);
-            obj_One.ConstructorOutput(); */
+            obj_One.ConstructorOutput(); 
             Bank obj = new Bank();
             obj.BankAccountDetails();
-            obj.AccountBalanceDetails();
+            obj.AccountBalanceDetails(); */
+            AccessModifier obj = new AccessModifier();
+            Console.WriteLine($"The sum is : {obj.num_One + obj.num_Two}");
+            Console.WriteLine(obj.Name="Krishna");
+            Derived derived= new Derived();
+            Console.WriteLine(derived.Lastname);
+            Console.WriteLine(derived.marks);
             Console.ReadKey();
         }
     }
